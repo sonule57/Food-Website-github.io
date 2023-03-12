@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .main{
+  border: 1px solid red; 
+}  */
+/* nav bar */
+#navbarnav ul li:hover {
+
+    background-color: #deb887;
+    border-radius: 5px;
+}
+
+/* home img */
+/* .carousel-inner img {
+    height: 80vh;
+    width: 100vw;
+    opacity: .4;
+} */
+.home-image{
+
+    border: 1px solid black;
+    height: 90vh;
+    width: 98.9vw;
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url("https://mayurtm29.github.io/The-Food-Place/images/Bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+
+    /* border: 1px solid blue; */
+    justify-content: center;
+    display: flex;
+    
+
+}
+.btn1{
+
+    border: 1px solid white;
+    width: 200px;
+    color: white;
+}
+.btn1:hover {
+    background-color: #deb887;
+    
+
+}
+
+.btn2 {
+
+    margin-left: 180px;
+    padding: 10px;
+    width: 200px;
+}
+
+.btn2:hover {
+    background-color: #deb887;
+
+}
+
+.about-info img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px #deb887;
+}
+
+/* .menu-special{
+    border: 1px solid red;
+} */
+/* .menu-navbar{
+    border: 1px solid palevioletred;
+} */
+/* ------bg-image--- */
+.bg-image {
+    height: 30%;
+    width: 100%;
+    background-image: url("https://mayurtm29.github.io/The-Food-Place/images/Bg_5.jpg");
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 2.5rem;
+
+}
+
+.scroll-me {
+    height: 75%;
+    width: 100%;
+
+}
+
+#navbarNavAlt div a:hover {
+    background-color: #deb887;
+    border-radius: 10px;
+}
+
+.navbar-nav a {
+    text-align: center;
+
+
+
+}
+
+/* -----------------------------------special menu------------------- */
+/* .special{
+
+    border: 1px solid red;
+
+}
+.row{
+
+    border: 1px solid blue;
+} */
+.special-cols {
+
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+
+.special img {
+
+    opacity: .4;
+}
+
+hr {
+
+    color: black;
+    border: dashed;
+}
+
+/* -------------------------------------gallary------------------- */
+/* .gallery{
+
+    border: 1px solid black;
+} */
+.gallery-cols {
+
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+
+    transition: all ease .5s;
+}
+
+.card img:hover {
+
+    transform: scale(0.9);
+}
+
+/* ------------------------------------customer ------------------ */
+.costomer {
+    /* border: 1px solid blue; */
+}
+
+.image-person {
+
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.image-person img {
+
+    /* border: 1px solid green; */
+    border-radius: 300px;
+    height: 100px;
+}
+
+/* ------------------------------footer-------------- */
+.footer {
+
+    /* border: 1px solid red; */
+    background-color: #deb887;
+}
+
+.footer-cols {
+
+    /* border: 1px solid green; */
+    margin-left: auto;
+
+}
+
+.call {
+
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.footer-bottom-cols {
+    /* border: 1px solid skyblue; */
+    background-color: #222222;
+}
+
+/* ======bottom footer======= */
+input {
+    padding: 5px;
+
+}
+
+.btn3:hover {
+
+    background-color: #deb887;
+
+}
+
+.btn3 {
+    width: 190px;
+}
+
+.costomer img {
+    align-items: center;
+
+
+}
+
+.active {
+    background-color: #deb887;
+    border-radius: 5px;
+}
